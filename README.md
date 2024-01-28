@@ -52,3 +52,13 @@ Streamify is a Next.js and TypeScript-powered streaming web application, offerin
 6) Start your video source and click Start Streaming in OBS Studio. You are now streaming live 🎉🎉.
 
 # Screenshots:
+![Screenshot (185)](https://github.com/Sudhanshu-Purohit/Streamify/assets/97443705/aa258e34-f82c-456a-b9c6-06d33b2eb864)
+<br/> <br/> <br/> <br/>
+![Screenshot (186)](https://github.com/Sudhanshu-Purohit/Streamify/assets/97443705/0933a7c6-ddaa-48d2-a9f0-cad64bcf6a32)
+<br/> <br/> <br/> <br/>
+![Screenshot (187)](https://github.com/Sudhanshu-Purohit/Streamify/assets/97443705/fa6cf658-5756-48cc-a439-c17435cdcd41)
+<br/> <br/> <br/> <br/>
+![Screenshot (188)](https://github.com/Sudhanshu-Purohit/Streamify/assets/97443705/1377f08b-8436-4f0b-9cc6-1a7142fddba5)
+
+
+
