@@ -7,6 +7,7 @@ datasource db {
   relationMode = "prisma"
 }
 
+
 generator client {
   provider = "prisma-client-js"
   previewFeatures = ["fullTextSearch", "fullTextIndex"]
