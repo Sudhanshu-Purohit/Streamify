@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Live link:
 
-## Getting Started
+# Description:
+Streamify is a Next.js and TypeScript-powered streaming web application, offering a feature-rich experience for content creators. With capabilities such as RTMP/WHIP streaming, authentication, real-time chat, viewer management, and a customizable dashboard, Streamify is a comprehensive platform for live content creation and community engagement. Its sleek design, rapid performance, and unique features make it a standout choice for seamless and interactive streaming experiences.
 
-First, run the development server:
+# Tech Stack:
+1) **Next Js 14**: It is a React framework that supports server-side rendering, static site generation, and app router features.
+2) **TypeScript**: It is a superset of JavaScript that adds static type checking and other features to the language.
+3) **Tailwind CSS**: It is a utility-first CSS framework that allows you to style your elements using classes instead of writing custom CSS.
+4) **Clerk**: It is a platform that provides authentication and user management for Next.js applications.
+5) **LiveKit**: It is a service that enables real-time audio and video communication for web and mobile applications.
+6) **MySQL**: It is a relational database management system that stores and manages data in tables.
+7) **Prisma**: It is a next-generation ORM for Node.js and TypeScript that simplifies database access and operations.
+8) **Shadcn UI**: It is a UI component library for React that follows the Tailwind CSS design system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Key Features:
+- 📡 Streaming using RTMP / WHIP protocols 
+- 🌐 Generating ingress
+- 🔗 Connecting Next.js app to OBS / Your favorite streaming software 
+- 🔐 Authentication 
+- 📸 Thumbnail upload
+- 👀 Live viewer count 
+- 💬 Real-time chat using sockets 
+- 🎨 Unique color for each viewer in chat 
+- 👥 Following system 
+- 🚫 Blocking system 
+- 👢 Kicking participants from a stream in real-time 
+- 🎛️ Streamer / Creator Dashboard 
+- 🐢 Slow chat mode 
+- 🔒 Followers only chat mode 
+- 📴 Enable / Disable chat 
+- 🔽 Collapsible layout (hide sidebars, chat etc, theatre mode etc.) 
+- 📚 Sidebar following & recommendations tab 
+- 🏠 Home page recommending streams, sorted by live first 
+- 🔍 Search results page with a different layout 
+- 🔄 Syncing user information to our DB using Webhooks 
+- 📡 Syncing live status information to our DB using Webhooks 
+- 🤝 Community tab 
+- 🎨 Beautiful design
+- ⚡ Blazing fast application 
+- 📄 SSR (Server-Side Rendering) 
+- 🗺️ Grouped routes & layouts 
+- 🗃️ MySQL
+- 🚀 Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How to stream:
+1) Log in to your account and go to the dashboard.
+2) Click on the Keys tab and select Generate Connections.
+3) Choose RTMP/WHIP from the drop-down menu and click Generate. You will see a server URL and a stream key. Copy them to your clipboard.
+4) Open OBS Studio on your computer. If you don’t have it, you can download it.
+5) In OBS Studio, go to Settings > Stream and select Custom as the service. Paste the server URL and the stream key in the corresponding fields. Click OK.
+6) Start your video source and click Start Streaming in OBS Studio. You are now streaming live 🎉🎉.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Screenshots:
