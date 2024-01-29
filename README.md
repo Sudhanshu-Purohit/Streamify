@@ -1,4 +1,4 @@
-# Live link:
+# Live link: <a href="https://streamify-eight.vercel.app/" target="_blank">Visit Streamify</a>
 
 # Description:
 Streamify is a Next.js and TypeScript-powered streaming web application, offering a feature-rich experience for content creators. With capabilities such as RTMP/WHIP streaming, authentication, real-time chat, viewer management, and a customizable dashboard, Streamify is a comprehensive platform for live content creation and community engagement. Its sleek design, rapid performance, and unique features make it a standout choice for seamless and interactive streaming experiences.
